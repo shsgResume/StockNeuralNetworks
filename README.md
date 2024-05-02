@@ -1,10 +1,4 @@
-<h1>About</h1>
-This repository is a roject that utilizes a Recurrent Neural Network (RNN) to predict the stock prices of companies in the NYSE. Options prices and visualizations are also shown in the Jupyter notebook. 
-The data and analysis can be used to make informed decisions for investors.
-
 <h1>Requirements</h1>
-
-  
 The packages can be installed easily via Miniconda. The packages required are
 
 > [!NOTE]
@@ -14,8 +8,13 @@ The packages can be installed easily via Miniconda. The packages required are
 > Tensorflow and Keras <br>
 > Seaborn <br>
 > yfinance <br>
+> Matplotlib <br>
 
-The stock prices can be pulled form the pacakge yfinance. To predict the stock prices, an RNN of type Long Short Term Memory (LSTM) is used. LSTM is suitable for time series analysis,which is what stock prices pretty much are.
+<h1>About</h1>
+This repository is a roject that utilizes a Recurrent Neural Network (RNN) to predict the stock prices of companies in the NYSE. Options prices and visualizations are also shown in the Jupyter notebook. 
+The data and analysis can be used to make informed decisions for investors.
+
+The stock prices can be pulled form the package yfinance. To predict the stock prices, an RNN of type Long Short Term Memory (LSTM) is used. LSTM is suitable for time series analysis,which is what stock prices pretty much are.
 
 
 Some companies (Microsoft, Micron and Nvidia; tickers MSFT, MU, NVDA) are chosen here to investigate there correlations. An sns (using the Seaborn package) plot can be created to visualize the correlations of the stock prices.
