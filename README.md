@@ -1,4 +1,5 @@
-\section{Requirements}
+<h1>Requirements<h1>
+=========================
 
 ![image](https://github.com/shsgResume/StockNeuralNetworks/assets/167844966/b4fb5458-5ee2-44f0-a719-1142ce2bc887)
 
